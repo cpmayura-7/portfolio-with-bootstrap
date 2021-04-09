@@ -1,0 +1,183 @@
+body {
+    background-color: lightblue;
+  }
+  
+h1{
+    color: white;
+    
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+h3{
+  color: white;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+p1 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+  }
+p.hidden {border-style: hidden;}
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-spacing: 5px;
+}
+.icon-bar {
+  width: 85px; /* Set a specific width */
+  background-color: #555; /* Dark-grey background */
+}
+
+#mySearch {
+  width: 90%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation links */
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+.new {
+  margin-left:-3.25%;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box} 
+
+
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}  
+.html,.css,.js,.php{
+  text-align: centre;
+  font-size: medium;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  border-width: .05cm;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.html {width: 85%;background-color: #4CAF50;animation: html 7s;}
+.css {width: 80%; background-color: #2196F3;animation: css 7s;}
+.js {width: 65%; background-color: #f44336;animation: js 7s;}
+.php {width: 60%; background-color: #808080;animation: php 7s;}
+
+@keyframes html{
+  0%{
+    width: 0%
+  }
+  100%{
+    width:85%
+  }
+}
+@keyframes css{
+  0%{
+    width: 0%
+  }
+  100%{
+    width:80%
+  }
+}
+@keyframes js{
+  0%{
+    width: 0%
+  }
+  100%{
+    width:65%
+  }
+}
+@keyframes php{
+  0%{
+    width: 0%
+  }
+  100%{
+    width:60%
+  }
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border: none;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  border: none;
+}
+.new1{
+  background-color:transparent;
+  border:none;
+  margin-left:28%;
+}
+.new2{
+  background-color:transparent;
+  border:none;
+  margin-left:38%;
+  margin-top:-18%;
+}
+.new3{
+  background-color:transparent;
+  border:none;
+  margin-left:48%;
+  margin-top:-18%;
+}
+.new4{
+  background-color:transparent;
+  border:none;
+  margin-left:58%;
+  margin-top:-18%;
+}
+.new5{
+  background-color:transparent;
+  border:none;
+  margin-left:68%;
+  margin-top:-18%;
+}
